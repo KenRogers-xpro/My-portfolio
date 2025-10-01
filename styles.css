@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    min-height: 100px;
+}
+header ul {
+    /* background-color: blueviolet; */
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none; 
+    cursor: pointer;
+}
+header ul li:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.profile-pic{
+    width: 50%;
+    background-size: cover;
+}
+.hero{
+    /* background-color: blueviolet; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 90%;
+    align-items: center;
+    padding: 10px;
+}
+.hero-pic{
+    width: 40%;
+    height: 500px;
+    background-image: url(./assets/s-pic1.jpg);
+    /* background-color: aliceblue; */
+    background-position: center;
+    background-size: contain;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin-left: 0px; */
+}
+.hero-info{
+    /* background-color: bisque; */
+    padding: 10px;
+    flex-basis: 50%;
+}
+.about-me {
+    width: 50%;
+
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+.about-me h2{
+    font-size: 40px;
+}
+.about-me p {
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+.card{
+    /* background-color: rgb(193, 206, 206); */
+    width: 30%;
+    border: 5px solid tomato;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 20px;
+    /* display: flex;
+    flex-direction: row; */
+
+}
+.card h6{
+    text-align: center;
+    font-size:36px;
+}
+.cards{
+    /* background-color: aqua; */
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.skills{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills h2{
+    font-size: 50px;
+}
+.project img {
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.projects{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.project-container{
+    /* background-color: brown; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+
+}
+
+.project{
+    background-color: aquamarine;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}.project:hover{
+    width: 409px;
+    transition-duration: 0.5s;
+}
+
+.project-description{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+button{
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+    outline: none;
+    cursor: pointer;
+    /* border: none; */
+    border-left: 2px;
+    border-bottom: 1px;
+}
+button:hover{
+    box-shadow: 5px 5px 10px;
+
+}
+.contact-section{
+    background-color: bisque;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.contact-section button{
+    width: 60%;
+}
+.contact-section h2{
+    font-size: 30px;
+}
+.contact-form{
+    width: 100%;
+    /* background-color: rgb(159, 122, 66); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 260px;
+}
+.inputs{
+    /* background-color: aqua; */
+    width: 250px;
+    min-height: 200x;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.inputs input{
+    /* background-color: blueviolet; */
+    height: 50px;
+    width: 95%;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+}
+#message{
+    border-radius: 20px;
+    padding: 10px;
+}
+@media screen and (max-width:768px){
+    body{
+        background-color: aquamarine;
+    }
+  .navbar ul {
+  display: none;
+  background: rgb(198, 208, 208);
+    visibility: hidden;
+}
+  .navbar ul li {
+  list-style: none;
+  margin-left: 45px;
+  display: none;
+  visibility: hidden;
+  background: red;
+}
+}
+
+
+
+
+
+
