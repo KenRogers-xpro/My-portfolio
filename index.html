@@ -1,46 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portifolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Lutaaya Ken Rogers</title>
+    <link rel="stylesheet" href="port-styles.css">
 </head>
+
 <body>
-    <header>
-        <h5>Dj Ken Xpro</h5>
+    <nav class="navbar">
+        <a href="#" class="logo">Lutaaya ken Rogers</a>
         <ul>
-            <li>About me</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contacts</li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
-    </header>
-    <main>
-        <div class="hero">
-
-            <div class="hero-pic">
-              <!-- <img class="profile-pic" src="" alt="My profile pic"> -->
-            </div>
-            <div class = "hero-info">
-                <h1>Hello welcome to my portifolio page!!!</h1>
-                <h3>I'm Lutaaya Ken Rogers</h3>
-                <p>A highly skilled full stack developer based in basement of the State house.</p>
-                <button>Download my CV</button>
-                
-            </div>
+        <div class="menu-content">
             
-
-
         </div>
-        <section class="about-me">
-            <h2>About me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iure saepe recusandae, voluptas dignissimos eveniet delectus? Adipisci, repudiandae! Dolorem aperiam repellendus quasi. Molestias numquam nesciunt eos totam accusantium optio? Obcaecati.
-            </p>
+    </nav>
+    <section class="hero-section">
+        <div class="hero-info">
+            <h1>Lutaaya Ken Rogers</h1>
+            <h2>I'm a 
+                <!-- <span style="--i:6">Deejay</span> -->
+                <!-- <span style="--i:5">Heartbreaker</span> -->
+                <span style="--i:4" data-text="Frontend developer">Frontend developer</span>
+                <span style="--i:3" data-text="Network engineer">Network engineer</span>
+                <span style="--i:2" data-text="Forex trader">Forex trader</span>
+                <span style="--i:1" data-text="Driver">Driver</span>
+            </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, ipsam hic? Modi saepe excepturi
+                aspernatur, sit, iure at adipisci optio porro, natus molestiae non nihil dolorem nostrum. Enim, suscipit
+                quasi!
+                Quos eum delectus rerum dolorum corrupti repudiandae veniam similique repellat. Corrupti, earum? Cumque,
+                labore porro qui doloremque culpa aliquid cum nihil, architecto omnis incidunt ut non natus ducimus
+                nulla! At.</p>
 
-        </section>
-        <section class="skills">
-            <h2>My Skills</h2>
+            <div class="btn-sci">
+                <a href="#" class ="btn">Download CV</a>
+                <div class="sci">
+                    <a href="#">Github</a>
+                    <a href="#">Linked In</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Whatsup</a>
+                </div>
+            </div>    
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="/assets/pic 2.jpg" alt="my Photo">
+                </div>
+            </div>
+        </div>
+
+    </section>
+     <section class="skills">
+            <h1>My Skills</h1>
             <div class="cards">
                 <div class="card">
                     <img src="./assets/icons/html5-brands-solid-full (1).svg" class="icon" alt="html icon">
@@ -65,7 +86,7 @@
                 
             </div>
         </section>
-        <section class="projects">
+         <section class="projects">
             <h2>Projects Engaged in</h2>
             <div class="project-container">
                 <div class="project">
@@ -104,6 +125,6 @@
             <button>Submit</button>
 
         </section>
-    </main>
 </body>
+
 </html>
